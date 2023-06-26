@@ -13,7 +13,7 @@
 @media screen and (min-width: 1024px) {
   .lumi__navigation {
     justify-content: space-between;
-    padding: 21px 30px 21px 52px;
+    padding: 21px 52px 21px 52px;
     align-items: center;
   }
 }
