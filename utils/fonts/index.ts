@@ -8,7 +8,7 @@ const markOT = localFont({
         { path: "../../public/assets/Fonts/MarkOT-Regular.otf", weight: "400" },
         { path: "../../public/assets/Fonts/MarkOT-Book.otf", weight: "350" },
         { path: "../../public/assets/Fonts/MarkOT-Thin.otf", weight: "200" },
-        { path: "../../public/assets/Fonts/MarkOT.otf", weight: "400" },
+        { path: "../../public/assets/Fonts/MarkOT.otf", weight: "450" },
         { path: "../../public/assets/Fonts/MarkOT-Bold.otf", weight: "700" }
     ],
     display: "swap"

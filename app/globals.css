@@ -1,24 +1,24 @@
-:root{
-    --color-white:rgba(255, 255, 255, 1);
-    --color-primary: rgba(71, 146, 156, 1):
-    --color-secondary:rgba(240, 146, 145, 1);
-    --color-black:rgba(0, 0, 0, 1);
-    --color-gray:rgba(83, 83, 83, 1);
-    --color-light-gray:rgba(196, 196, 196, 1);
-    --color-shadow:rgba(58, 58, 60, 0.38);
-    --color-light-primary:rgba(133, 197, 185, 1);
-    --color-light-secondary:rgba(211, 142, 141, 1);
-    --color-dark-white:rgba(240, 242, 242, 1)
+:root {
+  --color-white: rgba(255, 255, 255, 1);
+  --color-primary: rgba(71, 146, 156, 1);
+  --color-secondary: rgba(240, 146, 145, 1);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-gray: rgba(83, 83, 83, 1);
+  --color-light-gray: rgba(196, 196, 196, 1);
+  --color-shadow: rgba(58, 58, 60, 0.38);
+  --color-light-primary: rgba(133, 197, 185, 1);
+  --color-light-secondary: rgba(211, 142, 141, 1);
+  --color-dark-white: rgba(240, 242, 242, 1);
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    scroll-behavior: smooth;
-  }
-  
-  a {
-    color: unset;
-    text-decoration: none;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}

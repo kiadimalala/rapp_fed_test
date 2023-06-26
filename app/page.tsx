@@ -1,6 +1,11 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
+import { Banner } from "@app/components";
+
 export default function Home() {
-  return <main className={styles.main}>main</main>;
+  return (
+    <div className={styles.app}>
+      <Banner />
+    </div>
+  );
 }
