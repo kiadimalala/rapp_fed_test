@@ -1,0 +1,25 @@
+.lumi__logo_container {
+  max-height: 22.811px;
+  display: flex;
+  align-items: center;
+}
+
+.lumi__logo_container img {
+  width: 97.832px;
+}
+
+@media screen and (min-width: 1024px) {
+  .lumi__logo_container {
+    width: 20%;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lumi__logo_container {
+    width: 20%;
+  }
+  .lumi__logo_container img {
+    height: 100%;
+  }
+}

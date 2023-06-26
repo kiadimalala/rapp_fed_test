@@ -1,0 +1,29 @@
+.btn__secondary {
+  background-color: var(--color-secondary) !important;
+  color: var(--color-black);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 13px 0;
+  width: 100%;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin-top: 18px;
+}
+@media screen and (min-width: 768px) {
+  .btn__secondary {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .btn__secondary {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .btn__secondary {
+    font-size: 24px;
+  }
+}

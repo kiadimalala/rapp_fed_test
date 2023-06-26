@@ -1,0 +1,74 @@
+.lumi__hero {
+  position: absolute;
+  padding: 22px;
+  width: 100%;
+}
+.lumi__hero_texts__container {
+  background-color: var(--color-shadow);
+  border-radius: 10px;
+  padding: 16px;
+  color: var(--color-white);
+}
+.lumi__banner__title {
+  font-size: 32px;
+  line-height: 45px;
+}
+
+.lumi__hero_texts__container p {
+  font-size: 16px;
+  margin-top: 16px;
+
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .lumi__hero {
+    max-width: 321px;
+  }
+  .lumi__banner__title {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .lumi__hero_texts__container {
+    padding: 12px;
+  }
+  .lumi__hero_texts__container p {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lumi__hero {
+    bottom: 95px;
+    right: 20px;
+    max-width: 351px;
+  }
+  .lumi__banner__title {
+    max-width: 351.793px;
+  }
+
+  .lumi__hero_texts__container p {
+    max-width: 343.706px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lumi__hero {
+    bottom: 175px;
+    right: 75px;
+    max-width: fit-content;
+  }
+
+  .lumi__banner__title {
+    font-size: 40px;
+    max-width: 351.793px;
+    line-height: 45px;
+  }
+
+  .lumi__hero_texts__container p {
+    font-size: 20px;
+    max-width: 343.706px;
+    margin-right: 0;
+  }
+} 

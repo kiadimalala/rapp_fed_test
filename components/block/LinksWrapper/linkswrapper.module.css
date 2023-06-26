@@ -1,0 +1,28 @@
+.lumi__navigation_links {
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.lumi__navigation_links ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.lumi__navigation_links ul li {
+  list-style: none;
+  color: var(--color-white);
+}
+
+.lumi__navigation_links ul li:not(:last-child) {
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1440px) {
+  .lumi__navigation_links {
+    display: flex;
+    width: 60%;
+  }
+}

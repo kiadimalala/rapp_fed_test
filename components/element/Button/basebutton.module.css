@@ -1,0 +1,8 @@
+.btn {
+  border: none;
+  background: transparent;
+}
+
+.btn:focus {
+  outline: none;
+}

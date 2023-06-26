@@ -1,0 +1,30 @@
+.lumi__sign_container {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+}
+
+.lumi__sign_container a {
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+.lumi__sign_container span {
+  color: var(--color-white);
+}
+
+@media screen and (min-width: 1024px) {
+  .lumi__sign_container {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lumi__sign_container {
+    width: 20%;
+  }
+}

@@ -1,0 +1,12 @@
+.lumi__menu {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 30px;
+}
+
+@media screen and (min-width: 1440px) {
+  .lumi__menu {
+    display: none;
+  }
+}
