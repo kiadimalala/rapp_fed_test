@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./mission.module.css";
+import styles from "./how.module.css";
 
 interface ListProps {
   className?: string;

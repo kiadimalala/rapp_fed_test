@@ -1,8 +1,8 @@
 .lumi__how {
-  padding: 13px;
+  padding: 13px 13px 47px 13px;
   display: flex;
   flex-direction: column;
-
+  background: var(--color-dark-white);
   gap: 16px;
 }
 .lumi__how_content {
