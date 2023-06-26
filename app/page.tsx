@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 
-import { Banner, HowItWork, Mission } from "@app/components";
+import { Banner, Designed, HowItWork, Mission } from "@app/components";
 
 export default function Home() {
   return (
@@ -8,6 +8,7 @@ export default function Home() {
       <Banner />
       <HowItWork />
       <Mission />
+      <Designed />
     </div>
   );
 }
