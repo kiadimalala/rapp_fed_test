@@ -9,6 +9,7 @@
   text-transform: uppercase;
   border-radius: 10px;
   margin-top: 18px;
+  max-width: 330px;
 }
 @media screen and (min-width: 768px) {
   .btn__secondary {

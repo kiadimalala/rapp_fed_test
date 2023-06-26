@@ -1,0 +1,79 @@
+.lumi__mission_list {
+  width: 100%;
+  padding-left: 12px;
+}
+
+.lumi__mission_list ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.lumi__mission_list ol li span {
+  color: #535353;
+  font-size: 16px;
+
+  font-weight: 700;
+  line-height: 140%;
+}
+.lumi__mission_list ol li {
+  color: #535353;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 140%;
+  max-width: 306px;
+}
+.lumi__mission_list ol li::marker {
+  color: var(--color-primary);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .lumi__mission_list ol li {
+    max-width: max-content;
+  }
+  .lumi__mission_list ol {
+    align-items: flex-start;
+  }
+  .lumi__mission_list {
+    padding-left: 33px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lumi__mission_list {
+    padding: 0 66px;
+  }
+  .lumi__mission_list ol li::marker {
+    font-size: 24px;
+
+    line-height: 120%;
+  }
+  .lumi__mission_list ol li span,
+  .lumi__mission_list ol li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .lumi__mission_list {
+    padding-left:  137px;
+  }
+  .lumi__mission_list ol {
+    gap: 20px;
+  }
+  .lumi__mission_list ol li::marker {
+    font-size: 28px;
+
+    line-height: 120%;
+  }
+  .lumi__mission_list ol li span,
+  .lumi__mission_list ol li {
+    font-size: 24px;
+  }
+}

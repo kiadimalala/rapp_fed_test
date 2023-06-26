@@ -21,7 +21,7 @@ const Pictures: React.FC<PictureProps> = ({
     <picture className={styles.banner__picture}>
       <Image
         className={styles.banner__picture_large}
-        sizes="(min-width:768px)"
+        sizes="(min-width:1024px)"
         alt="lumi__banner"
         src={largeImgSrc}
       />

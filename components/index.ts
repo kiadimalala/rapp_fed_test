@@ -29,7 +29,7 @@ export {default as MenuButton} from './element/Button/MenuButton/MenuButton'
 /*--- block components - grouped element containing multiple base element components*/ 
 
 export {default as LinksContainer} from './block/LinksWrapper/LinksWrapper'
-
+export {default as MissionList} from './block/missionList/MissionList'
 
 
 
