@@ -45,8 +45,10 @@
 
 @media screen and (min-width: 1024px) {
   .lumi__hero {
-    bottom: 55px;
-    right: 45px;
+    /* bottom: 55px;
+    right: 45px; */
+    bottom: 7%;
+    right: 5%;
     max-width: 351px;
   }
   .lumi__hero_texts__container h1 {
@@ -60,8 +62,8 @@
 
 @media screen and (min-width: 1440px) {
   .lumi__hero {
-    bottom: 113px;
-    right: 148px;
+    bottom: 10%;
+    right: 8%; 
     max-width: fit-content;
   }
   .lumi__hero_texts__container {
