@@ -1,0 +1,43 @@
+.lumi__accordion_item {
+  cursor: pointer;
+}
+.lumi__accordion_item__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid var(--color-primary);
+  padding-bottom: 20px;
+}
+
+.lumi__accordion_item__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.lumi__accordion_item__body p {
+  padding: 16px 0;
+  color: var(--color-gray);
+  font-size: 16px;
+}
+
+.lumi__accordion_item__title h3 {
+  color: var(--color-primary);
+  font-size: 16px;
+
+  line-height: 120%;
+  font-weight: 400;
+  max-width: 275px;
+}
+
+.lumi__accordion_item__body.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+@media screen and (min-width: 768px) {
+  .lumi__faq h1 {
+    max-width: 387px;
+    font-size: 18px;
+  }
+}
