@@ -30,7 +30,8 @@ export {default as ChevronDown} from './icons/ChevronDown/ChevronDown'
 
 /*--- block components - grouped element containing multiple base element components*/ 
 
-export {default as LinksContainer} from './block/LinksWrapper/LinksWrapper'
+export {default as LinksContainer} from './block/LinksContainer/LinksWrapper'
+export {default as LinksContainerMobile} from './block/LinksContainerMobile/LinksContainerMobile'
 export {default as MissionList} from './block/HowItWorkList/HowItWorkList'
 export {default as Accordion} from './block/Accordion/Accordion'
 
@@ -38,3 +39,5 @@ export {default as Accordion} from './block/Accordion/Accordion'
 export {default as AuthLinks} from './block/AuthWrapper/AuthWrapper'
 
 export {default as BannerContent} from './block/Banner/BannerContent'
+
+export {default as MobileMenu} from './block/MobileMenu/MobileMenu'

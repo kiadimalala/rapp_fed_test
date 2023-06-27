@@ -11,7 +11,7 @@ interface WrapperProps {
 
 const LinksWrapper: React.FC<WrapperProps> = ({ className, links }) => {
   return (
-    <div className={styles.lumi__navigation_links}>
+    <div className={`${styles.lumi__navigation_links}  `}>
       <ul>
         {links?.map((link, index) => (
           <li key={link + index}>

@@ -11,6 +11,10 @@
   gap: 30px;
 }
 
+.mobile {
+  background-color: red !important;
+}
+
 .lumi__navigation_links ul li {
   list-style: none;
 }

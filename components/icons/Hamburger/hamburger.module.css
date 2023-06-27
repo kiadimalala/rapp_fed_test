@@ -1,0 +1,35 @@
+.hamburger {
+  fill: var(--color-white);
+}
+
+.line {
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.top {
+  y: 30;
+}
+
+.middle {
+  y: 50;
+}
+
+.bottom {
+  y: 70;
+}
+
+.hamburger.open :is(.top, .bottom) {
+  y: 50;
+}
+
+.hamburger.open .top {
+  rotate: 42.5deg;
+}
+.hamburger.open .bottom {
+  rotate: -42.5deg;
+}
+
+.hamburger.open .middle {
+  opacity: 0;
+}
