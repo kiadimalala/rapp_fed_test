@@ -4,9 +4,9 @@
   align-items: center;
 }
 
-.lumi__logo_container img {
+/* .lumi__logo_container img {
   width: 97.832px;
-}
+} */
 
 @media screen and (min-width: 1024px) {
   .lumi__logo_container {
