@@ -42,7 +42,7 @@ const FAQs = () => {
     setSelected(i);
   };
   return (
-    <div className={styles.lumi__faq}>
+    <div data-aos="fade-down" className={styles.lumi__faq}>
       <Heading large text="We’re here to answer your questions" />
       <div className={styles.lumi_faq_accordion}>
         <div className={styles.lumi_faq_accordion__wrapper}>

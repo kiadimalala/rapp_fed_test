@@ -27,10 +27,10 @@ const mission = [
 const HowIWork = () => {
   return (
     <div className={styles.lumi__how}>
-      <div className={styles.lumi__how_image}>
+      <div data-aos="fade-right" className={styles.lumi__how_image}>
         <Picture imgSrc={smallHIW} largeImgSrc={largeHIW} />
       </div>
-      <div className={styles.lumi__how_content}>
+      <div data-aos="fade-left" className={styles.lumi__how_content}>
         <Heading large text="How it works" />
         <Heading small text="Lumi’s A, B, Cs, to better Zzzzs" />
         <MissionList type="A" list={mission} />

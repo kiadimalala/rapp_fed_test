@@ -11,7 +11,7 @@ interface MobileMenuProps {
 
 const MobileMenu: React.FC<MobileMenuProps> = ({ links, className }) => {
   return (
-    <div className={`${styles.lumi__menu} ${className}`}>
+    <div data-aos="fade-down" className={`${styles.lumi__menu}`}>
       <LinksContainerMobile links={links} />
       <div className={styles.lumi__sign_container}>
         <Link link={{ path: "#", label: "sign in" }} />

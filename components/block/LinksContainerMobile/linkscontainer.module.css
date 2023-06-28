@@ -12,9 +12,11 @@
 
 .lumi__navigation_links ul li {
   list-style: none;
+  padding-bottom: 5px;
 }
 .lumi__navigation_links ul li a {
   color: var(--color-white);
+  padding-bottom: 5px !important;
   background-image: linear-gradient(
     transparent 0%,
     transparent 90%,

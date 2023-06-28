@@ -7,10 +7,10 @@ import styles from "./designed.module.css";
 const DedignedFor = () => {
   return (
     <div className={styles.lumi__designed}>
-      <div className={styles.lumi__designed_image}>
+      <div data-aos="fade-right" className={styles.lumi__designed_image}>
         <Picture imgSrc={designed} largeImgSrc={designed} />
       </div>
-      <div className={styles.lumi__designed_content}>
+      <div data-aos="fade-left" className={styles.lumi__designed_content}>
         <Heading large text="Lumi is designed for" />
         <div className={styles.lumi__designed_content__text}>
           <span>
