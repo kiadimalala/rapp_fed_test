@@ -1,6 +1,7 @@
 .btn {
   border: none;
   background: transparent;
+  cursor: pointer;
 }
 
 .btn:focus {
