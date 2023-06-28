@@ -9,7 +9,7 @@ import { smallBanner, largeBanner } from "@app/images";
 interface PictureProps {
   className?: string;
   imgSrc: StaticImageData;
-  largeImgSrc?: StaticImageData;
+  largeImgSrc?: any;
 }
 
 const Pictures: React.FC<PictureProps> = ({
