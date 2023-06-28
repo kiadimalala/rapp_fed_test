@@ -3,7 +3,7 @@
 ### Objective : 
 Create responsive website based on a Figma Design provided in the link below.
 
-### Candidate information
+### Candidate informations
 - name : Rojoniaina Kiadimalala
 - github username : kiadimalala
 - email: kiady.rj@gmail.com
@@ -26,7 +26,7 @@ List the technologies, frameworks, and libraries you used in your project
 - Additional library:
     - Aos (Animate on Scroll) :
         - A JavaScript library that allows you to add scroll animations
-        - Why using Aos?: To add lightweight and smooth scroll animations to the website.
+        - Why using Aos: To add lightweight and smooth scroll animations to the website.
 
 
 ## Installation
