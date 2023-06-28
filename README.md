@@ -1,6 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
+## RAPP interview test
+A responsive website based on a Figma Design provided in the link below.
 
 First, run the development server:
 
