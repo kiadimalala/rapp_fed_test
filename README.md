@@ -3,6 +3,12 @@
 ### Objective : 
 Create responsive website based on a Figma Design provided in the link below.
 
+### Candidate information
+- name : Rojoniaina Kiadimalala
+- github username : kiadimalala
+- email: kiady.rj@gmail.com
+  
+
 ### Table of content
 - [Technologies](#technologies)
 - [Installation](#installation)
