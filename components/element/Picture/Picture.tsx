@@ -18,7 +18,7 @@ const Pictures: React.FC<PictureProps> = ({
   largeImgSrc,
 }) => {
   return (
-    <picture className={styles.banner__picture}>
+    <picture className={`${styles.banner__picture}`}>
       <Image
         className={styles.banner__picture_large}
         sizes="(min-width:1024px)"

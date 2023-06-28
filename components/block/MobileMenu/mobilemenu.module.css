@@ -1,6 +1,6 @@
 .lumi__menu {
   position: absolute;
-  bottom: -725%;
+  bottom: -775%;
 
   display: flex;
   flex-direction: column;
@@ -35,10 +35,17 @@
 .lumi__sign_container span {
   color: var(--color-white);
 }
+@media screen and (min-width: 768px) {
+  .lumi__menu {
+    width: max-content;
+    left: 5%;
+  }
+}
 
 @media screen and (min-width: 1024px) {
   .lumi__menu {
-    bottom: -500%;
+    bottom: -525%;
+    left: 4%;
   }
   .lumi__sign_container {
     display: none;

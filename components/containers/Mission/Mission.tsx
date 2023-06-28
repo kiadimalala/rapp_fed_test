@@ -8,10 +8,10 @@ import { mission } from "@app/images";
 const Mission = () => {
   return (
     <div className={styles.lumi__mission}>
-      <div className={styles.lumi__mission_image}>
+      <div data-aos="fade-left" className={styles.lumi__mission_image}>
         <Picture imgSrc={mission} largeImgSrc={mission} />
       </div>
-      <div className={styles.lumi__mission_content}>
+      <div data-aos="fade-right" className={styles.lumi__mission_content}>
         <Heading large text="Our mission" />
         <div className={styles.lumi__mission_content__text}>
           <span>

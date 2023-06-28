@@ -10,7 +10,7 @@ interface SingleLinkProps {
 }
 
 const SingleLink: React.FC<SingleLinkProps> = ({ className, link }) => {
-  return <Link href={link?.path}>{link.label}</Link>;
+  return <Link className="fade-in" href={link?.path}>{link.label}</Link>;
 };
 
 export default SingleLink;
