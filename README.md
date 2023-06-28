@@ -22,7 +22,7 @@ List the technologies, frameworks, and libraries you used in your project
 
 
 ## Installation
-1. Clone the repository: `git clone `
+1. Clone the repository: `git clone https://github.com/kiadimalala/rapp_fed_test.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 
