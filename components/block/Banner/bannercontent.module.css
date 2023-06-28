@@ -2,6 +2,9 @@
   position: absolute;
   padding: 22px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .lumi__hero_texts__container {
   background-color: var(--color-shadow);
@@ -9,9 +12,10 @@
   padding: 16px;
   color: var(--color-white);
 }
-.lumi__banner__title {
+.lumi__hero_texts__container h1 {
   font-size: 32px;
   line-height: 45px;
+  font-weight: 400;
 }
 
 .lumi__hero_texts__container p {
@@ -25,7 +29,7 @@
   .lumi__hero {
     max-width: 321px;
   }
-  .lumi__banner__title {
+  .lumi__hero_texts__container h1 {
     font-size: 24px;
     line-height: 35px;
   }
@@ -35,32 +39,38 @@
   .lumi__hero_texts__container p {
     font-size: 12px;
     margin-top: 12px;
+    max-width: 199px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lumi__hero {
-    bottom: 95px;
-    right: 20px;
+    /* bottom: 55px;
+    right: 45px; */
+    bottom: 7%;
+    right: 5%;
     max-width: 351px;
   }
-  .lumi__banner__title {
+  .lumi__hero_texts__container h1 {
     max-width: 351.793px;
   }
 
   .lumi__hero_texts__container p {
-    max-width: 343.706px;
+    max-width: 212px;
   }
 }
 
 @media screen and (min-width: 1440px) {
   .lumi__hero {
-    bottom: 175px;
-    right: 75px;
+    bottom: 10%;
+    right: 8%; 
     max-width: fit-content;
   }
+  .lumi__hero_texts__container {
+    padding: 20px;
+  }
 
-  .lumi__banner__title {
+  .lumi__hero_texts__container h1 {
     font-size: 40px;
     max-width: 351.793px;
     line-height: 45px;
@@ -71,4 +81,4 @@
     max-width: 343.706px;
     margin-right: 0;
   }
-} 
+}

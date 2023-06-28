@@ -16,7 +16,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .lumi__sign_container {
+ .lumi__sign_container {
     display: flex;
     justify-content: flex-end;
     width: 20%;

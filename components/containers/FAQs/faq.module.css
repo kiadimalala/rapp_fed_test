@@ -1,0 +1,44 @@
+.lumi__faq {
+  padding: 74px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 52px;
+}
+
+.lumi__faq h1 {
+  color: var(--color-primary);
+  text-align: center;
+  font-size: 28px;
+
+  line-height: 120%;
+  font-weight: 400;
+  text-align: center;
+  max-width: 292px;
+}
+.lumi_faq_accordion__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 26px;
+  gap: 30px;
+}
+
+.lumi__accordion_item__title .chevron__up::after,
+.lumi__accordion_item__title .chevron__down::after {
+  color: var(--color-primary);
+}
+
+@media screen and (min-width: 768px) {
+  .lumi_faq_accordion {
+    max-width: 460px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lumi__faq h1 {
+    max-width: max-content;
+  }
+}
