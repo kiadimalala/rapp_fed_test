@@ -1,5 +1,5 @@
 .btn__secondary {
-  background-color: var(--color-secondary) !important;
+  background: var(--color-secondary);
   color: var(--color-black);
   text-align: center;
   font-size: 16px;
@@ -10,7 +10,14 @@
   border-radius: 10px;
   margin-top: 18px;
   max-width: 330px;
+  transition: all 0.3s ease-in;
 }
+
+.btn__secondary:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
 @media screen and (min-width: 768px) {
   .btn__secondary {
     font-size: 14px;
