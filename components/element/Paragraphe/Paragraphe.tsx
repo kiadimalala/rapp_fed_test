@@ -1,8 +1,8 @@
 import React from "react";
 
 interface ParagrapheProps {
-  className?: string;
-  text: string;
+  className?: string;    // Optional prop: CSS class for the paragraph
+  text: string;          // Required prop: the text to be displayed in the paragraph
 }
 
 const Paragraphe: React.FC<ParagrapheProps> = ({ className, text }) => {

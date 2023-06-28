@@ -22,12 +22,13 @@ const pageLinks = [
 const NavigationBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
+  // Function to handle toggling the menu
   const handleToggleMenu = () => {
-    if (isMenuOpen) {
-      return setIsMenuOpen(false);
-    }
-    setIsMenuOpen(true);
+    // Update the state of isMenuOpen to its opposite value
+    setIsMenuOpen(!isMenuOpen);
   };
+
+  // Rest of the component code
 
   return (
     <div className={styles.lumi__navigation}>
@@ -35,6 +36,7 @@ const NavigationBar = () => {
       <Logo />
       <LinksContainer className="lumi__navigation_link" links={pageLinks} />
       <AuthLinks />
+      {/* Render mobile menu if the menu is open */}
       {isMenuOpen && (
         <MobileMenu className={"slide-in-top"} links={pageLinks} />
       )}

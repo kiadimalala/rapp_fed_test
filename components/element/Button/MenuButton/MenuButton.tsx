@@ -5,9 +5,9 @@ import { DefaultButton, MenuIcon } from "@app/components";
 import styles from "./menu.module.css";
 
 interface MenuButtonProps {
-  className?: string;
-  isOpen?: boolean;
-  onClick?: () => void;
+  className?: string; // Optional prop: CSS class for the menu button
+  isOpen?: boolean; // Optional prop: indicates whether the menu is open or closed
+  onClick?: () => void; // Optional prop: function to be called when the menu button is clicked
 }
 
 const MenuButton: React.FC<MenuButtonProps> = ({

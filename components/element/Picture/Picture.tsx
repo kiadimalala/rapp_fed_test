@@ -7,9 +7,9 @@ import styles from "./picture.module.css";
 import { smallBanner, largeBanner } from "@app/images";
 
 interface PictureProps {
-  className?: string;
-  imgSrc: StaticImageData;
-  largeImgSrc?: any;
+  className?: string; // Optional prop: CSS class for the picture
+  imgSrc: StaticImageData; // Required prop: the image source for small screens
+  largeImgSrc?: any; // Optional prop: the image source for large screens
 }
 
 const Pictures: React.FC<PictureProps> = ({

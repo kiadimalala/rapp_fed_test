@@ -2,10 +2,10 @@ import Link from "next/link";
 import React from "react";
 
 interface SingleLinkProps {
-  className?: string;
+  className?: string;             // Optional prop: CSS class for the link
   link: {
-    path: string;
-    label?: string;
+    path: string;                 // Required property of the 'link' object: the path for the link
+    label?: string;               // Optional property of the 'link' object: the label/text for the link
   };
 }
 
