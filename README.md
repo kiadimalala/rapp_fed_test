@@ -6,6 +6,16 @@ A responsive website based on a Figma Design provided in the link below.
 - [Installation](#installation)
 
 
+## Technologies
+List the technologies, frameworks, and libraries you used in your project
+- Next.js
+- React
+- Additional library:
+    - Aos (Animate on Scroll) :
+        - A JavaScript library that allows you to add scroll animations
+        - Why using Aos?: To add lightweight and smooth scroll animations to the website.
+
+
 First, run the development server:
 
 ```bash
