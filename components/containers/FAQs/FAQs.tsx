@@ -34,16 +34,25 @@ const questions: any = [
 ];
 
 const FAQs = () => {
+  // Declare state variable 'selected' and a function to update it, 'setSelected',
+  // using the 'useState' hook. Initialize 'selected' to null.
   const [selected, setSelected] = useState(null);
+
+  // Define a function 'handleToggle' that takes a parameter 'i'.
   const handleToggle = (i: any) => {
+    // Check if the value of 'selected' is equal to 'i'.
     if (selected === i) {
+      // If 'selected' is equal to 'i', set 'selected' to null.
       return setSelected(null);
     }
+    // If 'selected' is not equal to 'i', set 'selected' to the value of 'i'.
     setSelected(i);
   };
+
   return (
     <div data-aos="fade-down" className={styles.lumi__faq}>
       <Heading large text="We’re here to answer your questions" />
+      {/* Render a large Heading component with the text */}
       <div className={styles.lumi_faq_accordion}>
         <div className={styles.lumi_faq_accordion__wrapper}>
           {questions.map((question: any, index: any) => (
@@ -55,8 +64,10 @@ const FAQs = () => {
             />
           ))}
         </div>
+        {/* Render an Accordion component for each question in the 'questions' array */}
       </div>
-      <ButtonSecondary label="get started" />
+      <ButtonSecondary label="get started" />{" "}
+      {/* Render a ButtonSecondary component with label */}
     </div>
   );
 };

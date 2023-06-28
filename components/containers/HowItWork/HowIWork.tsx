@@ -33,7 +33,8 @@ const HowIWork = () => {
       <div data-aos="fade-left" className={styles.lumi__how_content}>
         <Heading large text="How it works" />
         <Heading small text="Lumi’s A, B, Cs, to better Zzzzs" />
-        <MissionList type="A" list={mission} />
+        <MissionList type="A" list={mission} />{" "}
+        {/* Render a list of missions in the mission Array */}
         <Heading medium text="Zzzzz your baby sleeps!" />
         <ButtonSecondary label="get started" />
       </div>
