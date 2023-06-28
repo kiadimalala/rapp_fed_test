@@ -1,5 +1,7 @@
-## RAPP interview test
-A responsive website based on a Figma Design provided in the link below.
+## RAPP IO - Front End Test
+
+### Objective : 
+Create responsive website based on a Figma Design provided in the link below.
 
 ### Table of content
 - [Technologies](#technologies)
