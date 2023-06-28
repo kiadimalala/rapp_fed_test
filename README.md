@@ -1,7 +1,7 @@
 ## RAPP IO - Front End Test
 
 ### Objective : 
-Create responsive website based on a Figma Design provided in the link below.
+Create responsive website based on a provided Figma Design.
 
 ### Candidate informations
 - name : Rojoniaina Kiadimalala
